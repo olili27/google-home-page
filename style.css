@@ -53,12 +53,16 @@ label{
 }
 
 input{
+    margin: 0 2%;
+    height: 100%;
+    flex:1;
     outline: none;
     border: none;
 }
 
 ::placeholder{
-    font-size: 18px;
+    font-size: 13px;
+    opacity: 0.5;
 }
 
 button{
