@@ -23,8 +23,6 @@ body{
 
 .img-div{
     margin-bottom: -38px;
-    /* padding: 0; */
-    /* background-color: antiquewhite; */
 }
 
 /* form  */
@@ -45,13 +43,13 @@ label{
 }
 
 .fa-search{
+    top: 70%;
     opacity: 0.3;
     font-size: 14px;
 }
 
-.fa-microphone{
-    opacity: 0.4;
-    font-size: 16px;
+#microphone{
+    width: 2.7%;
 }
 
 input{
