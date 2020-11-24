@@ -52,6 +52,14 @@ label{
     width: 2.7%;
 }
 
+#microphone:hover{
+    cursor: pointer;
+}
+
+title{
+    border: 1px solid #eee;
+}
+
 input{
     margin: 0 3%;
     height: 100%;
