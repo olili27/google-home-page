@@ -78,12 +78,20 @@ nav a{
 
 /* header */
 
+/* main-section */
+#main-section{
+    text-align: center;
+}
+/* main-section */
+
 /* img-div */
 .img-div img{
     text-align: center;
+    margin: auto;
     margin-top: 8rem;
     width: 21%;
-    margin-left: 23%;
+    display: flex;
+    justify-content: center;
 }
 /* img-div */
 
@@ -143,7 +151,7 @@ input{
 }
 
 ::placeholder{
-    font-size: 15px;
+    font-size: 1rem;
     opacity: 0.8;
 }
 
@@ -168,6 +176,10 @@ span{
     font-size: 13.4px;
 }
 
+#languages{
+    margin-bottom: 7rem;
+}
+
 #languages a{
     text-decoration: none;
     font-size: 13.5px;
@@ -179,11 +191,12 @@ span{
 
 /* footer */
 footer{
-    margin-top:6%;
+    margin-top:7rem;
     background-color: #eee;
     border-top: 1px solid #ddd;
     color: #777;
     font-size: 14px;
+    min-height: 5rem;
 }
 
 footer a{
@@ -211,6 +224,7 @@ ul li{
     order: 1;
     display: flex;
     flex-direction: row;
+    margin-left: 1rem;
 }
 
 #ul-2{
@@ -221,13 +235,36 @@ ul li{
 /* footer */
 
 /* media query */
-@media(max-width:700px){
-    footer ul{
-        text-align: center;
+@media(max-width:1300px){
+    footer{
+        margin-top: 8.5rem;
     }
+}
+
+@media(max-width:1000px){
+    footer{
+        margin-top: 7.2rem;
+    }
+
     #ul{
         display: inline-block;
         text-align: center;
     }
+
+    #ul-2{
+        margin-left: 23%;
+        margin-right: 23%;
+    }
+
+    @media (max-width:800px){
+        footer{
+            margin-top: 8rem;
+        }
+    }
+
+    @media (max-width:700px){
+        footer{
+            margin-top: 9rem;
+        }
 }
 /* media query */
