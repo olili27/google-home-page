@@ -25,21 +25,21 @@ a:hover{
 
 /* #wrapper */
 #wrapper{
-    /* background-color: green; */
     position: relative;
     text-align: center;
     width: 100%;
     height: 100vh;
-    /* margin: auto; */
-    /* padding: 4%; */
 }
 /* #wrapper */
 
 /* header */
+header{
+    background-color: yellowgreen;
+    width: 100%;
+}
+
 nav{
     float: right;
-    width: 20%;
-    /* background-color: orange; */
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -82,6 +82,7 @@ nav a{
 /* main-section */
 #main-section{
     text-align: center;
+    /* background-color: red; */
 }
 /* main-section */
 
@@ -90,6 +91,7 @@ nav a{
     text-align: center;
     margin: auto;
     margin-top: 8rem;
+    margin-bottom: 1.7rem;
     width: 21%;
     display: flex;
     justify-content: center;
@@ -123,7 +125,6 @@ label{
 .fa-search{
     padding: 0.8rem;
     padding-left: 1rem;
-    top: 70%;
     opacity: 0.4;
     font-size: 14px;
 }
@@ -181,7 +182,7 @@ span{
     text-decoration: none;
     font-size: 13.5px;
     margin: 2px;
-    font-weight: lighter;
+    font-weight: 585;
     color: #00a;
 }
 /* #languages */
@@ -191,7 +192,7 @@ footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #eee;
+    background-color: rgb(240, 240, 240);
     border-top: 1px solid #ddd;
     color: #777;
     font-size: 14px;
@@ -223,30 +224,45 @@ ul li{
     display: flex;
     flex-direction: row;
     margin-left: 1rem;
-    padding: 0.1em;
 }
 
 #ul-2{
     display: flex;
     flex-direction: row;
     order: 2;
-    padding: 0.1em;
 }
 /* footer */
 
 /* media query */
 @media(max-width:800px){
+    .img-div img{
+        width: 60%; 
+        margin-bottom: 1.7rem;
+    }
+
+    label{
+        width: 90%;
+    }
+
+    footer{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
 
     #ul{
+        text-align: center;
         display: block;
+        margin:0 auto;
     }
 
     #ul-1{
-        margin: 0 20%;
+        margin: 0 auto;
         padding: 1em;
     }
     #ul-2{
-        margin: 0 30%;
+        margin: 0 auto;
         margin-top: 1rem;
     }
 }
