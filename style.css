@@ -26,6 +26,7 @@ a:hover{
 /* #wrapper */
 #wrapper{
     /* background-color: green; */
+    position: relative;
     text-align: center;
     width: 100%;
     height: 100vh;
@@ -184,13 +185,16 @@ span{
     text-decoration: none;
     font-size: 13.5px;
     margin: 2px;
-    font-weight: bolder;
+    font-weight: lighter;
     color: #00a;
 }
 /* #languages */
 
 /* footer */
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     margin-top:7rem;
     background-color: #eee;
     border-top: 1px solid #ddd;
@@ -212,7 +216,6 @@ footer a{
     display: flex;
     justify-content: space-between;
     margin: 0.5rem ;
-    margin-bottom: 0;
     margin-left: 0;
 }
 ul li{
@@ -225,46 +228,31 @@ ul li{
     display: flex;
     flex-direction: row;
     margin-left: 1rem;
+    padding: 0.1em;
 }
 
 #ul-2{
     display: flex;
     flex-direction: row;
     order: 2;
+    padding: 0.1em;
 }
 /* footer */
 
 /* media query */
-@media(max-width:1300px){
-    footer{
-        margin-top: 8.5rem;
-    }
-}
-
-@media(max-width:1000px){
-    footer{
-        margin-top: 7.2rem;
-    }
+@media(max-width:800px){
 
     #ul{
-        display: inline-block;
-        text-align: center;
+        display: block;
     }
 
+    #ul-1{
+        margin: 0 20%;
+        padding: 1em;
+    }
     #ul-2{
-        margin-left: 23%;
-        margin-right: 23%;
+        margin: 0 30%;
+        margin-top: 1rem;
     }
 
-    @media (max-width:800px){
-        footer{
-            margin-top: 8rem;
-        }
-    }
-
-    @media (max-width:700px){
-        footer{
-            margin-top: 9rem;
-        }
-}
-/* media query */
+/* media query */ 
