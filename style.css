@@ -25,6 +25,9 @@ a:hover{
 
 /* #wrapper */
 #wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: relative;
     text-align: center;
     width: 100%;
@@ -33,11 +36,6 @@ a:hover{
 /* #wrapper */
 
 /* header */
-header{
-    background-color: yellowgreen;
-    width: 100%;
-}
-
 nav{
     float: right;
     display: flex;
