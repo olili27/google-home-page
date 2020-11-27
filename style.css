@@ -25,9 +25,6 @@ a:hover{
 
 /* #wrapper */
 #wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
     text-align: center;
     width: 100%;
@@ -90,7 +87,7 @@ nav a{
     margin: auto;
     margin-top: 8rem;
     margin-bottom: 1.7rem;
-    width: 21%;
+    width: 23%;
     display: flex;
     justify-content: center;
 }
