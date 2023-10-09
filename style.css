@@ -48,7 +48,7 @@ nav{
 
 nav a{
     font-size: 13px;
-    font-weight: bolder;
+    font-weight: 400;
     color: #666;
 }
 
@@ -87,7 +87,7 @@ nav a{
     margin: auto;
     margin-top: 8rem;
     margin-bottom: 1.7rem;
-    width: 23%;
+    width: 250px;
     display: flex;
     justify-content: center;
 }
@@ -179,9 +179,9 @@ span{
 
 #languages a{
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
     margin: 2px;
-    font-weight: 900;
+    font-weight: 400;
     color: #00a;
 }
 /* #languages */
@@ -232,11 +232,6 @@ ul li{
 
 /* media query */
 @media(max-width:800px){
-    .img-div img{
-        width: 55%; 
-        margin-bottom: 1.7rem;
-    }
-
     label{
         width: 90%;
     }
@@ -265,9 +260,6 @@ ul li{
 }
 
 @media (max-width:450px){
-    footer{
-        font-size: 3rem;
-    }
     #ul{
         display: block;
     }
